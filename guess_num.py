@@ -1,6 +1,11 @@
 import random
 
-r = random.randint(1, 50)
+start = input('請輸入最小數字: ')
+end = input('請輸入最大數字: ')
+start = int(start)
+end = int(end)
+
+r = random.randint(start, end)
 count = 0
 while True:
 	count += 1
